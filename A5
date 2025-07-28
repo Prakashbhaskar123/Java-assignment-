@@ -1,0 +1,24 @@
+public class TypeCastingDemo {
+    public static void main(String[] args) {
+        
+        // Widening Casting (Implicit)
+        int i = 25;
+        float f = i; // int to float
+        double d = f; // float to double
+
+        System.out.println("Widening Casting:");
+        System.out.println("int value: " + i);
+        System.out.println("float value: " + f);
+        System.out.println("double value: " + d);
+
+        // Narrowing Casting (Explicit)
+        double d2 = 99.99;
+        float f2 = (float) d2; // double to float
+        int i2 = (int) f2;     // float to int
+
+        System.out.println("\nNarrowing Casting:");
+        System.out.println("double value: " + d2);
+        System.out.println("float value: " + f2);
+        System.out.println("int value: " + i2);
+    }
+}
