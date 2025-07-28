@@ -1,0 +1,15 @@
+ Use this editor to write, compile and run your Java code online
+ java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner n = new Scanner(System.in); // Corrected Scanner object name and constructor
+        System.out.println("Enter a number: ");
+        int num = n.nextInt(); // Changed variable name from 'n' to 'num' to avoid conflict
+
+        if (num % 2 == 0) {
+            System.out.println("Even"); // Corrected 'system' to 'System'
+        } else {
+            System.out.println("Odd");  // Corrected 'system' to 'System'
+        }
