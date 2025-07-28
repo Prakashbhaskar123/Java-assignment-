@@ -1,0 +1,27 @@
+public class OperatorPrecedenceDemo {
+    public static void main(String[] args) {
+
+        int a = 10, b = 5, c = 2;
+        int result;
+
+        // Expression to evaluate
+        result = a + b * c;  // * has higher precedence than +
+        System.out.println("Expression: a + b * c");
+        System.out.println("Result: " + result);
+
+        // Using parentheses to change precedence
+        result = (a + b) * c;
+        System.out.println("\nExpression: (a + b) * c");
+        System.out.println("Result: " + result);
+
+        // Another example with mixed operators
+        result = a + b - c * 2 / 2;
+        System.out.println("\nExpression: a + b - c * 2 / 2");
+        System.out.println("Result: " + result);
+
+        // Explicit grouping
+        result = ((a + b) - (c * 2)) / 2;
+        System.out.println("\nExpression: ((a + b) - (c * 2)) / 2");
+        System.out.println("Result: " + result);
+    }
+}
