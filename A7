@@ -1,0 +1,9 @@
+
+public class AsciiLowercase {
+    public static void main(String[] args) {
+        System.out.println("Lowercase Letters and their ASCII Values:");
+
+        for(char ch = 'a'; ch <= 'z'; ch++) {
+            System.out.println(ch + " --> " + (int)ch);
+        }
+        }
