@@ -6,10 +6,10 @@ class Main {
         int n= num.nextInt();
         if(n%2==0 && n%100!=0 && n%400==0)
         {
-        System.out.println("prime number");
+        System.out.println("leap year");
         }
             else{
-                System.out.println(" not a prime");
+                System.out.println(" not a leap year");
             }
         
     }
