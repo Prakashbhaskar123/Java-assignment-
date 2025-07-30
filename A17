@@ -1,1 +1,17 @@
+class Demo {
+    int number;
 
+    // Constructor using 'this'
+    Demo(int number) {
+        this.number = number; // 'this' refers to current object
+    }
+
+    void display() {
+        System.out.println("Number is: " + number);
+    }
+
+    public static void main(String[] args) {
+        Demo d = new Demo(25);
+        d.display();
+    }
+}
