@@ -1,4 +1,4 @@
- Use this editor to write, compile and run your Java code online
+
  java.util.Scanner;
 
 class Main {
@@ -13,3 +13,5 @@ class Main {
         } else {
             System.out.println("Odd");  // Corrected 'system' to 'System'
         }
+}
+}
